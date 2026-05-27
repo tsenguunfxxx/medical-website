@@ -23,8 +23,12 @@ export function AboutSection() {
             <h2 className="text-4xl font-extrabold text-slate-800 mb-6 leading-tight">
               {t.about.title}
             </h2>
-            <p className="text-slate-500 leading-relaxed mb-4">{t.about.body1}</p>
-            <p className="text-slate-500 leading-relaxed mb-8">{t.about.body2}</p>
+            <p className="text-slate-500 leading-relaxed mb-4">
+              {t.about.body1}
+            </p>
+            <p className="text-slate-500 leading-relaxed mb-8">
+              {t.about.body2}
+            </p>
 
             {/* Feature pills */}
             <div className="space-y-4">
@@ -34,7 +38,9 @@ export function AboutSection() {
                     {f.icon}
                   </div>
                   <div>
-                    <div className="font-bold text-slate-800 text-sm mb-0.5">{f.title}</div>
+                    <div className="font-bold text-slate-800 text-sm mb-0.5">
+                      {f.title}
+                    </div>
                     <div className="text-slate-500 text-sm">{f.desc}</div>
                   </div>
                 </div>
@@ -50,7 +56,9 @@ export function AboutSection() {
               <h3 className="text-xl font-bold text-center mb-2">
                 Mongolian National Medical Center
               </h3>
-              <p className="text-blue-200 text-sm text-center mb-8">Est. 1962 · Ulaanbaatar</p>
+              <p className="text-blue-200 text-sm text-center mb-8">
+                Est. 1962 · Ulaanbaatar
+              </p>
 
               <div className="grid grid-cols-2 gap-4">
                 {[
@@ -65,7 +73,9 @@ export function AboutSection() {
                   >
                     <div className="text-2xl mb-1">{item.icon}</div>
                     <div className="text-2xl font-extrabold">{item.value}</div>
-                    <div className="text-blue-200 text-xs font-medium">{item.label}</div>
+                    <div className="text-blue-200 text-xs font-medium">
+                      {item.label}
+                    </div>
                   </div>
                 ))}
               </div>
@@ -80,7 +90,9 @@ export function AboutSection() {
             {/* Floating badge 2 */}
             <div className="absolute -top-5 -right-5 bg-white rounded-2xl px-4 py-3 shadow-xl border border-slate-100">
               <div className="text-yellow-500 text-xl mb-0.5">⭐⭐⭐⭐⭐</div>
-              <div className="text-xs font-semibold text-slate-700">Top Rated Hospital</div>
+              <div className="text-xs font-semibold text-slate-700">
+                Top Rated Hospital
+              </div>
             </div>
           </div>
         </div>

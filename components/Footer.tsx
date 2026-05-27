@@ -25,10 +25,12 @@ export function Footer() {
               </div>
               <div>
                 <div className="font-bold text-white text-base">MNMC</div>
-                <div className="text-xs text-slate-400">Mongolian National Medical Center</div>
+                <div className="text-xs text-slate-400">Улсийн төв эмнэлэг</div>
               </div>
             </div>
-            <p className="text-sm text-slate-400 leading-relaxed">{t.footer.tagline}</p>
+            <p className="text-sm text-slate-400 leading-relaxed">
+              {t.footer.tagline}
+            </p>
           </div>
 
           {/* Contact */}
@@ -43,7 +45,7 @@ export function Footer() {
               </li>
               <li className="flex gap-2.5">
                 <span className="text-blue-400">📞</span>
-                <span>{t.footer.phoneValue}</span>
+                <span>85129161</span>
               </li>
               <li className="flex gap-2.5">
                 <span className="text-blue-400">✉️</span>
@@ -79,13 +81,17 @@ export function Footer() {
               <div className="text-red-400 font-semibold text-sm flex items-center gap-1.5">
                 🚨 Emergency: +976 103
               </div>
-              <div className="text-red-300/70 text-xs mt-0.5">24/7 Available</div>
+              <div className="text-red-300/70 text-xs mt-0.5">
+                24/7 Available
+              </div>
             </div>
           </div>
         </div>
 
         <div className="mt-10 pt-6 border-t border-slate-800 flex flex-col sm:flex-row justify-between items-center gap-3 text-xs text-slate-500">
-          <span>© {new Date().getFullYear()} MNMC. {t.footer.rights}</span>
+          <span>
+            © {new Date().getFullYear()} MNMC. {t.footer.rights}
+          </span>
           <span>Made with ❤️ in Ulaanbaatar, Mongolia</span>
         </div>
       </div>
